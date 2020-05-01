@@ -10,3 +10,18 @@ background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-2
 background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.img{
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text{
+  background-color: black;
+  opacity: 8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+.banner-text h1 {
+  color: white;
+}
