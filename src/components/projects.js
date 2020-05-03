@@ -10,6 +10,8 @@ class Project extends Component {
       categories(){
     if(this.state.activeTab=== 0){
         return(
+            <div style = {{width: '100%', margin: 'auto'}}>
+                <Grid className = "landing-grid">
             <div className ="projects-grid">
             <Card shadow={0} style={{width: '450', margin: 'auto'}}>
     <CardTitle style={{color: '#fff', height: '176px', 
@@ -110,6 +112,8 @@ class Project extends Component {
   </CardActions>
   
 </Card>
+    </div>
+    </Grid>
     </div>
         )
         }
