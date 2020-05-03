@@ -31,10 +31,13 @@ height: 100%;
 }
 .banner-text h1 {
   color: white;
+  font-size: small;
+  font-family: 'Courier New', Courier, monospace;
+
 }
 .banner-text p{
   color: white;
-  font-size: 20px;
+  font-size: 25px;
   padding: 1em;
   justify-content: space-evenly;
 }
