@@ -14,7 +14,7 @@ function App() {
         <Header className="header-color" title="Catherine Adegoke" scroll>
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
-                <Link to="/resume">Resume</Link>
+                {/* <Link to="/resume">Resume</Link> */}
                 <Link to="/projects">Projects</Link>
                 <Link to="contact/">Contact Info</Link>
             </Navigation>
@@ -22,7 +22,7 @@ function App() {
         <Drawer title="Title">
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
-            <Link to="/resume">Resume</Link>
+            {/* <Link to="/resume">Resume</Link> */}
                 <Link to="/projects">Projects</Link>
                 <Link to="contact/">Contact Info</Link>
             </Navigation>
